@@ -1,0 +1,31 @@
+{
+  "name": "projeto_5",
+  "version": "1.0.0",
+  "description": "Servidor HTTP com vari\u00e1veis de ambiente",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "http",
+    "dotenv"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "@types/jest": "^29.5.6",
+    "supertest": "^6.3.3"
+  }
+}
